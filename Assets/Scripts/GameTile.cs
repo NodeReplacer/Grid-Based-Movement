@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileLogic : MonoBehaviour
+public class GameTile : MonoBehaviour
 {
     [SerializeField]
     string tileType = default; //Should probably make a list in a library somewhere else.
